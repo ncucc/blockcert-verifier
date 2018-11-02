@@ -3,7 +3,7 @@ An open source "Blockchain Certificate" verification program.
 
 前言
 ---
-中央大學於 2018 年 10/24 - 10/26 舉辦的 [TANET 2018 研討會](https://tanet2018.ncu.edu.tw) 使用 Blockchain 技術來發給得獎者證書,
+中央大學於 2018 年 10/24 - 10/26 舉辦的 [TANET 2018 研討會](https://cis.ncu.edu.tw/SeminarSys/activity/TANET2018/) 使用 Blockchain 技術來發給得獎者證書,
 雖然我們提供一個網站 ( https://ncu.edu.tw/blockcerts/ ) , 但我們仍需要一個 Open Source 能驗證
 [區塊鏈證書系統](https://ncu.edu.tw/blockcerts/)  核發的證書.
 
