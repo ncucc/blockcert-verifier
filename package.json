@@ -1,0 +1,21 @@
+{
+  "name": "blockcertjs",
+  "version": "1.0.0",
+  "description": "Blockcert verfication",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "blockchain",
+    "IOTA",
+    "blockcert"
+  ],
+  "author": "Jiann-Ching Liu",
+  "license": "ISC",
+  "dependencies": {
+    "@iota/core": "^1.0.0-beta.5",
+    "text-encoding": "^0.7.0",
+    "tmp": "0.0.33"
+  }
+}
