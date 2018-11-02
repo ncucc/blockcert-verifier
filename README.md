@@ -16,7 +16,7 @@ An open source "Blockchain Certificate" verification program.
 
 首先, 先由 github 上將程式取回
 ```bash
-git clone git@github.com:ncucc/blockcert-verifier.git
+git clone https://github.com/ncucc/blockcert-verifier.git
 ```
 進程式目錄後, 編譯 java 程式
 ```bash
@@ -27,7 +27,7 @@ javac ECDSA_Verifier.java
 npm install
 ```
 我們的區塊鏈憑證寫在 IOTA 貨幣上, 所以要找到一個活著的 IOTA 節點, 程式預設使用 https://node04.iotatoken.nl:443 這個點,
-這個節點, 其實, 我們最近使用的經驗上不很穩定, 但它有可能連不上, 到 https://iota.dance 網站可以查到這些節點,
+這個節點, 其實, 我們最近使用的經驗上不很穩定, 因此, 如果連線有困難的話, 可以到 https://iota.dance 網站可以查到這些節點,
 找一個存活的點, 用編輯器去修改 app.js 這個程式其中的這行
 ```javascript
 const IOTA_HOST = 'https://node04.iotatoken.nl:443'
